@@ -233,15 +233,15 @@ Mientras que otros parámetros mostraron resultados mas interesantes:
 
 ![simInsts.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png)
 
-[Ver Grafica simInsts] En el número de instrucciones simuladas, se observa como con la optimización O0, la cantidad de instrucciones se reduce casi a la mitad y se reduce a menos de la mitad con las optimizaciones O2 y O3. El cambio es muy significativo al comparar la simulación sin optimizar con las optimización O1, con una diferencia de 147 851. Las optimización O2 y O3 no tuvieron cambio entre sí. Mientras que O2 y O3 con respecto a la optimización 01, la diferencia de instrucciones fue de 28 672
+[Ver Gráfica simInsts] En el número de instrucciones simuladas, se observa como con la optimización O0, la cantidad de instrucciones se reduce casi a la mitad y se reduce a menos de la mitad con las optimizaciones O2 y O3. El cambio es muy significativo al comparar la simulación sin optimizar con las optimización O1, con una diferencia de 147 851. Las optimización O2 y O3 no tuvieron cambio entre sí. Mientras que O2 y O3 con respecto a la optimización 01, la diferencia de instrucciones fue de 28 672
 
 ![simOps.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simOps.png)
 
-[Ver Grafica simOps] Con la cantidad de operaciones realizadas, se mantiene la tendencia, los operaciones se reducen considerablemente al aumentar la optimización, sin embargo, se observa que no hay diferencia entre la optimización O2 y O3 para este caso.
+[Ver Gráfica simOps] Con la cantidad de operaciones realizadas, se mantiene la tendencia, los operaciones se reducen considerablemente al aumentar la optimización, sin embargo, se observa que no hay diferencia entre la optimización O2 y O3 para este caso.
 Las diferencia de entre O0 y O1 es de 263 710 (se reduce por encima de la mitad) y la diferencia entre O0 y O2 es de 333 342 (reduce a menos de la mitad).
 
 ![system.cpu.cpi.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.cpi.png)
-
+[Ver Gráfica system.cpu.cpi.png] Los resultados del CPI son interesantes, ya que revelan un CPI bajo para una ejecución sin optimización, las optimizaciones O2 y O3 tienen el mismo CPI y fueron mas altas que la optimización O0  y O1. Para este caso, el speed up de la optimización O0 con respecto a la optimización O3 fue de 1.166. Es pecular ver que mas bien sin optimización el CPI es menor que si se optimizara, aunque esto está muy sujeto al tipo de código a ejecutar.
 
 ![system.cpu.dcache.overallHits::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallHits::cpu.data.pngsimInsts.png)
 
