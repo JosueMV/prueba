@@ -232,29 +232,27 @@ Mientras que otros parámetros mostraron resultados mas interesantes:
 
 
 ![simInsts.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png)
-
 [Ver Gráfica simInsts] En el número de instrucciones simuladas, se observa como con la optimización O0, la cantidad de instrucciones se reduce casi a la mitad y se reduce a menos de la mitad con las optimizaciones O2 y O3. El cambio es muy significativo al comparar la simulación sin optimizar con las optimización O1, con una diferencia de 147 851. Las optimización O2 y O3 no tuvieron cambio entre sí. Mientras que O2 y O3 con respecto a la optimización 01, la diferencia de instrucciones fue de 28 672
 
 ![simOps.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simOps.png)
-
 [Ver Gráfica simOps] Con la cantidad de operaciones realizadas, se mantiene la tendencia, los operaciones se reducen considerablemente al aumentar la optimización, sin embargo, se observa que no hay diferencia entre la optimización O2 y O3 para este caso.
 Las diferencia de entre O0 y O1 es de 263 710 (se reduce por encima de la mitad) y la diferencia entre O0 y O2 es de 333 342 (reduce a menos de la mitad).
 
 ![system.cpu.cpi.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.cpi.png)
-
 [Ver Gráfica system.cpu.cpi] Los resultados del CPI son interesantes, ya que revelan un CPI bajo para una ejecución sin optimización, las optimizaciones O2 y O3 tienen el mismo CPI y fueron mas altas que la optimización O0  y O1. Para este caso, el speed up de la optimización O0 con respecto a la optimización O3 fue de 1.166. Es pecular ver que mas bien sin optimización el CPI es menor que si se optimizara, aunque esto está muy sujeto al tipo de código a ejecutar.
 
 ![system.cpu.dcache.overallHits::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallHits::cpu.data.png)
-
 [Ver Gráfica system.cpu.dcache.overallHits::cpu.data]: Número total de aciertos en la caché de datos del cpu. Se observa un resultado llamativo, los aciertos disminuyen si se aplica cualquier nivel de optimización, el resultado de aciertos es igual para los niveles 1, 2 y 3 de optimización, los aciertos disminuyen casi a un caurto del los aciertos originales. Al menos para este código y para este punto de análisis, se observa que la optimización funciona para disminuir la cantidad instrucciones simuladas, pero empeora los aciertos al accesar a memoria.
 
 ![system.cpu.dcache.overallMissRate::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallMissRate::cpu.data.png)
-
 [Ver Gráfica system.cpu.dcache.overallMissRate::cpu.data]: Tasa de fallos de en la caché de datos de la CPU. Se este gráfico contrasta de manera contraria con el gráfico de aciertos de la memoria de datos de la CPY. El código sin optimizar tiene menor tasa de desaciertos que cualquier nivel de optimización. Para este caso, la tasa de desaciertos aumnentó a mas del doble para los niveles de optimizacióni 1, 2 y 3.
 
 
 
 ![system.cpu.icache.overallHits::cpu.inst.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.icache.overallHits::cpu.inst.png)
+[Ver Gráfica system.cpu.icache.overallHits::cpu.inst]: Total de aciertos en la caché de instrucciones del CPU. Las instrucciones sin optimizar devuelven una mayor cantidad de aciertos en la memoria caché de instrucciones, la optimización O1 disminuye los aciertos a casi la mitad y las optimizaciones de O2 y O3 tienen el mismo valor, pero menor que la optimización O1.
+
+
 
 ![system.cpu.icache.overallMissRate::cpu.inst.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.icache.overallMissRate::cpu.inst.png)
 
