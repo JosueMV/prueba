@@ -261,12 +261,21 @@ Las diferencia de entre O0 y O1 es de 263 710 (se reduce por encima de la mitad)
 
 
 ![system.cpu.icache.overallMissRate::cpu.inst.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.icache.overallMissRate::cpu.inst.png)
+
 [Ver Gráfica system.cpu.icache.overallMissRate::cpu.inst]: Tasa de fallos en caché de instrucciones del CPU. Para este caso, los fallos o desaciertos aumentaron cuando se optimizó el código, aumentó en mas del doble para las optimizaciones de nivel 2 y 3. Mientras que la otpimización de nivel 1 aumenta aproximadamente el doble de desaciertos con respecto al código sin optimizar o optimización de nivel 0.
 
 
 ![system.cpu.ipc.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.ipc.png)
 
+[Ver Gráfica system.cpu.ipcllMissRate::cpu.inst]: Instrucciones por ciclo: La gráfica muestra como las instrucciones por ciclo disminuyeron al aplicar la optimización, no hay una diferencia muy significativa al comparar las optimizaciones, las diferentes optimizaciones. Las optimizaciones 2 y 3  no tuvieron diferencia entre sí y la proporcion de diminución del nivel 3 respecto de el código sin optimizar es de 1.17. Esto puede deberse a que al aumentar el nivel de optimización, se podría aumentar la cantidad de codigo, por lo que el ipc podría disminuir.
+
+
 ![system.cpu.numCycles.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.numCycles.png)
+
+[Ver Gráfica system.cpu.numCycleslMissRate::cpu.inst]: Número de ciclos para completar la ejecución: La optimización si surte efecto en este rubro, se puede oberservar que la optimización de nivel 2 y 3 tiene el mismo valor, pero estos son de casi la mitad del valor del código sin optimizar.
+La disminución se da en un 1.86 veces el valor de la optimización 0, pero no hay cambio entre las optimizaciones 2 y 3, y la disminución de la optimización 2 respecto de la optimización 1 es de tan solo 1.086.
+
+En conclusión, las optimimzaciones no favorece a las evaluaciones que corresponden a memorio, pero a nivel general, parece dismimuir la cantidad de ciclos del programa, lo que se traduce en menor tiempo de ejecución del programa
 
 
 
