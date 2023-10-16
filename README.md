@@ -233,6 +233,7 @@ Mientras que otros parámetros mostraron resultados mas interesantes:
 
 ![simInsts.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png)
 
+En el número de instrucciones simuladas, se observa como la optimización reduce casi a la mitad instrucciones realizadas. El cambio es muy significativo al comparar la simulación sin optimizar con las optimización 01, con una diferencia de 147 851, las optimización 02 y 03 no tuvieron cambio, y con respecto a la optimización 01, la diferencia fue de 28 672
 ![simOps.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simOps.png)
 
 ![system.cpu.cpi.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.cpi.png)
