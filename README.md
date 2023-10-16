@@ -219,14 +219,14 @@ NP: No presenta ($\times 0$)
 A partir del arreglo tiling, con un tamaño de 128, se realizaron las pruebas para cada optimización.
 Las pruebas fuerons exportadas a un CSV, de este se extrajeron los datos y se realizó un plot o gráfico de cada resultado comparando cada optimización
 
-En los siguientes resultados o hubo diferencia o una gran diferencia como para realizar las comparaciones. En caso quere conocer el resultado, puede ir a la carpeta  Graficas optimizaciones en la ruta: gem5/Part1_optimizations. ...
+En los siguientes resultados o hubo diferencia o una gran diferencia como para realizar las comparaciones. En caso quere conocer el resultado, puede ir a la carpeta  Graficas optimizaciones en la ruta: gem5/Part1_optimizations. \
 	-CPU.OverallMisses: cpu.data \
 	-CPU.OverallMisses: Cpu.inst \
 	-L2Cache.overallHits: Tot. \
 	-L2cache.overallMisses: CPU.Data \
 	-L2cache.overallMisses: CPU.Inst \
 	-L2cache.overallMisses: Tot \
-	-L2cache.overallMissRate: Tot \
+	-L2cache.overallMissRate: Tot 
 	
 Mientras que otros parámetros mostraron resultados mas interesantes:
 
