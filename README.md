@@ -214,7 +214,7 @@ NP: No presenta ($\times 0$)
 ...
 ### Rendimiento de caché: cache misses, hits, etc.
 ...
-##Resultados de optimización del compilador.
+## Resultados de optimización del compilador.
 
 A partir del arreglo tiling, con un tamaño de 128, se realizaron las pruebas para cada optimización.
 Las pruebas fuerons exportadas a un CSV, de este se extrajeron los datos y se realizó un plot o gráfico de cada resultado comparando cada optimización
@@ -231,9 +231,23 @@ En los siguientes resultados o hubo diferencia o una gran diferencia como para r
 Mientras que otros parámetros mostraron resultados mas interesantes:
 
 
+![simInsts.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png)
 
+![simOps.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simOps.png)
 
-![simInsts.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png){:width="20px" height="10px"}
+![system.cpu.cpi.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.cpi.png)
+
+![system.cpu.dcache.overallHits::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallHits::cpu.data.pngsimInsts.png)
+
+![system.cpu.dcache.overallMissRate::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallMissRate::cpu.data.png)
+
+![system.cpu.icache.overallHits::cpu.inst.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.icache.overallHits::cpu.inst.png)
+
+![system.cpu.icache.overallMissRate::cpu.inst.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.icache.overallMissRate::cpu.inst.png)
+
+![system.cpu.ipc.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.ipc.png)
+
+![system.cpu.numCycles.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.numCycles.png)
 
 
 
