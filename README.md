@@ -250,6 +250,10 @@ Las diferencia de entre O0 y O1 es de 263 710 (se reduce por encima de la mitad)
 
 ![system.cpu.dcache.overallMissRate::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallMissRate::cpu.data.png)
 
+[Ver Gráfica system.cpu.dcache.overallMissRate::cpu.data]: Tasa de fallos de en la caché de datos de la CPU. Se este gráfico contrasta de manera contraria con el gráfico de aciertos de la memoria de datos de la CPY. El código sin optimizar tiene menor tasa de desaciertos que cualquier nivel de optimización. Para este caso, la tasa de desaciertos aumnentó a mas del doble para los niveles de optimizacióni 1, 2 y 3.
+
+
+
 ![system.cpu.icache.overallHits::cpu.inst.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.icache.overallHits::cpu.inst.png)
 
 ![system.cpu.icache.overallMissRate::cpu.inst.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.icache.overallMissRate::cpu.inst.png)
