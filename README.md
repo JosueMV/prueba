@@ -243,7 +243,7 @@ Las diferencia de entre O0 y O1 es de 263 710 (se reduce por encima de la mitad)
 ![system.cpu.cpi.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.cpi.png)
 [Ver Gráfica system.cpu.cpi.png] Los resultados del CPI son interesantes, ya que revelan un CPI bajo para una ejecución sin optimización, las optimizaciones O2 y O3 tienen el mismo CPI y fueron mas altas que la optimización O0  y O1. Para este caso, el speed up de la optimización O0 con respecto a la optimización O3 fue de 1.166. Es pecular ver que mas bien sin optimización el CPI es menor que si se optimizara, aunque esto está muy sujeto al tipo de código a ejecutar.
 
-![system.cpu.dcache.overallHits::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallHits::cpu.data.pngsimInsts.png)
+![system.cpu.dcache.overallHits::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallHits::cpu.data.png)
 
 ![system.cpu.dcache.overallMissRate::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallMissRate::cpu.data.png)
 
