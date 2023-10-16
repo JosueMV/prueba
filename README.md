@@ -237,6 +237,8 @@ En el número de instrucciones simuladas, se observa como con la optimización O
 ![simOps.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simOps.png)
 
 ![system.cpu.cpi.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.cpi.png)
+Con la cantidad de operaciones realizadas, se mantiene la tendencia, los operaciones se reducen considerablemente al aumentar la optimización, sin embargo, se observa que no hay diferencia entre la optimización O2 y O3 para este caso.
+Las diferencia de entre O0 y O1 es de 263 710 (se reduce por encima de la mitad) y la diferencia entre O0 y O2 es de 333 342 (reduce a menos de la mitad).
 
 ![system.cpu.dcache.overallHits::cpu.data.png](gem5/Part1_optimizations/Graficas_Optimizaciones/system.cpu.dcache.overallHits::cpu.data.pngsimInsts.png)
 
