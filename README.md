@@ -230,23 +230,15 @@ En los siguientes resultados o hubo diferencia o una gran diferencia como para r
 	
 Mientras que otros parámetros mostraron resultados mas interesantes:
 
-![/gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png](simInsts.png){:width="300px" height="200px"}
-
-
-![simInsts.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png){:width="300px" height="200px"}
-![simInsts.png](/gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png){:width="300px" height="200px"}
-
-
-![gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png](simInsts.png)
 
 
 
-![gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png](simInsts.png)
+![simInsts.png](gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png){:width="20px" height="10px"}
 
 
-![gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png](simInsts.png)
 
 
-![gem5/Part1_optimizations/Graficas_Optimizaciones/simInsts.png](simInsts.png)
+
+
 
 #Resultados Parte 2
