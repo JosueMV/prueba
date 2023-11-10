@@ -108,7 +108,7 @@ El script `plot_variable_vs_experiments.py` es un primer borrador para realizar 
 
 La configuración base que usted utilizará en este laboratorio es:
 
-|                     | L1 Inst | L1 Data | L2 Unified |
+|                     | Caso a  |  caso b |   caso d   |
 |---------------------|---------|---------|------------|
 | Tamaño (KB)         | 8       | 8       | 128        |
 | Número de conjuntos | 256     | 256     | 4096       |
