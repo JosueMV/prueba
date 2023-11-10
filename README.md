@@ -108,12 +108,11 @@ El script `plot_variable_vs_experiments.py` es un primer borrador para realizar 
 
 La configuración base que usted utilizará en este laboratorio es:
 
-|                     | Caso a  |  caso b |   caso d   |
-|---------------------|---------|---------|------------|
-| Tamaño (KB)         | 8       | 8       | 128        |
-| Número de conjuntos | 256     | 256     | 4096       |
-| Asociatividad       | 1       | 1       | 1          |
-| Línea de cache (B)  | 32      | 32      | 32         |
+|    Rubro            | Caso a  |  caso b |   caso c   |   caso d   |
+|---------------------|---------|---------|------------|------------|
+| Instrucciones ejecutadas  | 8       | 8       | 128        | 128        |
+| Ciclos de Reloj | 256     | 256     | 4096       | 4096       |
+|   CPI    | 1       | 1       | 1          | 1          |
 
 
 ## Parte 1: Arreglo 2D
